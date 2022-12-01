@@ -191,6 +191,85 @@ main {
   height: 6rem;
 }
 
+.myprojects h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #F2F2F2;
+  
+  margin-top: 12rem;
+  font-family: var(--fs-poppins);
+}
+
+.myprojects ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 6rem;
+}
+
+.myprojects ul li img {
+  width: 25rem;
+  height: 15rem;
+  border-radius: 1rem;
+}
+
+.myprojects ul li:nth-child(2) img {
+  width: 25rem;
+  height: 15rem;
+}
+
+.myprojects ul li a {
+  color: #F2F2F2;
+  background: linear-gradient(119deg, #004A88 0%, #004A88 0%, #5CB9F2 100%);
+  width: 27rem;
+  height: 23rem;
+
+  font-size: 1.5rem;
+  font-family: var(--fs-poppins);
+  font-weight: 500;
+
+  border-radius: 0.7rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+.myprojects ul li a{
+  transform: scale(1);
+  transition: transform 500ms;
+}
+
+.myprojects ul li a:hover {
+  transform: scale(1.1);
+  background: linear-gradient(306deg, #004A88 0%, #004A88 0%, #5CB9F2 100%)
+}
+
+.viewmore {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.viewmore button{
+  padding: 1rem;
+  width: 10rem;
+
+  color: #F2F2F2;
+  background-color: #22A2F2;
+  font-family: var(--fs-poppins);
+  font-weight: 500;
+  
+  
+  border-radius: 5px;
+  border: none;
+
+  font-size: 1rem;
+  cursor: pointer;
+}
+
 .separador {
   display: flex;
   align-items: center;
