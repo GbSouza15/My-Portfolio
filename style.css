@@ -511,3 +511,24 @@ footer {
     display: none;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .myprojects ul {
+    gap: 15rem;
+  } 
+
+  .myprojects ul li a {
+    width: 20rem;
+    height: 16rem;
+  }
+
+  .myprojects ul li img {
+    width: 22rem;
+    height: 16rem;
+  }
+  
+  .myprojects ul li:nth-child(2) img {
+    width: 22rem;
+    height: 16rem;
+  }
+}
