@@ -1,10 +1,39 @@
 const btnMobile = document.querySelector('#btn-mobile')
 
-const elements = document.querySelectorAll('nav li')
+const buttonSobre = document.querySelector('.sobre')
+
+const buttonHabilidades = document.querySelector('.habilidades')
+
+const buttonProjetos = document.querySelector('.projetos')
+
+const buttonContato = document.querySelector('.contato')
+
+const nav = document.querySelector('#navegacao')
+
+
 
 btnMobile.addEventListener('click', () => {
-    const nav = document.querySelector('#navegacao')
+    
     nav.classList.toggle('active')
 })
 
-console.log(elements)
+buttonSobre.addEventListener('click', () => {
+
+    nav.classList.remove('active')
+})
+
+buttonHabilidades.addEventListener('click', () => {
+
+    nav.classList.remove('active')
+})
+
+buttonProjetos.addEventListener('click', () => {
+
+    nav.classList.remove('active')
+})
+
+buttonContato.addEventListener('click', () => {
+
+    nav.classList.remove('active')
+})
+

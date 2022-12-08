@@ -53,10 +53,11 @@ nav ul{
 nav p {
   color: #f8e80a;
   font-style: italic;
+  font-size: 0.7rem;
 }
 
 nav img {
-  width: 4rem;
+  width: 3rem;
 }
 
 /* nav a {
@@ -382,12 +383,12 @@ main {
 
 .contact ul li:nth-child(1) {
   border-radius: 0.5rem 0.5rem 0 0;
-  border-bottom: 0.3rem solid #f8e80a;
+  border-bottom: 0.1rem solid #f8e80a;
 }
 
 .contact ul li:nth-child(3) {
   border-radius: 0 0 0.5rem 0.5rem;
-  border-top: 0.3rem solid #f8e80a;
+  border-top: 0.1rem solid #f8e80a;
 }
 
 .contact ul li a img {
@@ -515,13 +516,16 @@ footer {
     position: fixed;
     z-index: 1;
     width: 100%;
-    top: 98px;
-    right: 0;
+    top: 75px;
+    right: 10;
 
-    background-color: #f8e80a;
+    background-color:  #212121;
 
-    height: 50%;
+    height: 18rem;
+    width: 95%;
     padding-top: 1.5rem;
+
+
   }
 
   #btn-mobile {
@@ -536,9 +540,9 @@ footer {
   }
 
   nav ul li a {
-    color: black;
-    font-size: 1.5rem;
-    font-weight: 700;
+    color:  #f8e80a;
+    font-size: 1.2rem;
+  
   }
 
   nav {
@@ -551,7 +555,7 @@ footer {
   }
 
  .iam {
-  padding-top: 8rem;
+  padding-top: 6rem;
  }
 
 }
